@@ -215,10 +215,16 @@
     }
 
     .logo {
-      background: url("../../../img/hero-logo.webp");
-      width: 4.75rem;
-      height: 4.75rem;
+      width: 6.75rem;
+      height: 6.75rem;
       line-height: 4.75rem;
+
+      img {
+        width: 60%;
+        position: relative;
+        top: 4px;
+        left: -3px;
+      }
 
       .icon {
         &:before {
