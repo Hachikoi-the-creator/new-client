@@ -1,0 +1,23 @@
+// img container
+.w-cake {
+  margin: 0 10% 7% 10%;
+}
+
+// XV party container
+.xv-container {
+  margin: 0 10%;
+  width: 80%;
+}
+
+.img-containers {
+  width: 80%;
+  // transition: transform 2s ease-out;
+  position: relative;
+  background-color: transparent;
+  gap: 10px;
+  // grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}

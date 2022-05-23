@@ -1,0 +1,21 @@
+.w-cake {
+  margin: 0 10% 7% 10%;
+}
+
+.xv-container {
+  margin: 0 10%;
+  width: 80%;
+}
+
+.img-containers {
+  width: 80%;
+  position: relative;
+  background-color: transparent;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=myExtraStyles.css.map */

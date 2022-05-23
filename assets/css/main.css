@@ -1,4 +1,4 @@
-@import 'fontawesome-all.min.css';
+@import "fontawesome-all.min.css";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 /*
 	Dimension by HTML5 UP
@@ -122,7 +122,10 @@ html {
   }
 }
 
-body, input, select, textarea {
+body,
+input,
+select,
+textarea {
   color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
@@ -143,12 +146,14 @@ a:hover {
   border-bottom-color: transparent;
 }
 
-strong, b {
+strong,
+b {
   color: #ffffff;
   font-weight: 600;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
@@ -156,7 +161,13 @@ p {
   margin: 0 0 2rem 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 0 0 5px #ffffff;
   color: #ffffff;
   font-weight: 600;
   line-height: 1.5;
@@ -164,11 +175,21 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
   text-decoration: none;
 }
-h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+h1.major,
+h2.major,
+h3.major,
+h4.major,
+h5.major,
+h6.major {
   border-bottom: solid 1px #ffffff;
   width: -moz-max-content;
   width: -webkit-max-content;
@@ -587,7 +608,7 @@ input[type=radio] + label:before {
 }
 .image:before {
   pointer-events: none;
-  background-image: url("../../images/overlay.png");
+  background-image: url("../../../img/cake-bg.jpg");
   background-color: rgba(19, 21, 25, 0.5);
   border-radius: 4px;
   content: "";
@@ -631,6 +652,9 @@ input[type=radio] + label:before {
   display: block;
   margin: 2.5rem 0;
   width: 100%;
+  background: url("../../../img/chef.webp");
+  background-size: cover;
+  height: 200px;
 }
 .image.main img {
   width: 100%;
@@ -976,6 +1000,26 @@ button {
   line-height: calc(2.75rem - 2px);
 }
 
+.w-cake {
+  margin: 0 10% 7% 10%;
+}
+
+.xv-container {
+  margin: 0 10%;
+  width: 80%;
+}
+
+.img-containers {
+  width: 80%;
+  position: relative;
+  background-color: transparent;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 /* BG */
 #bg {
   -moz-transform: scale(1.0);
@@ -1008,10 +1052,10 @@ button {
   -webkit-transition-delay: 0.75s;
   -ms-transition-delay: 0.75s;
   transition-delay: 0.75s;
-  background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-  background-size: auto, 256px 256px;
-  background-position: center, center;
-  background-repeat: no-repeat, repeat;
+  background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../../img/cake-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 2;
 }
 #bg:after {
@@ -1089,6 +1133,12 @@ body.is-preload #bg:before {
 
 /* Header */
 #header {
+  background: rgba(255, 255, 255, 0.428);
+  color: black;
+  font-weight: 700;
+  text-shadow: 0 0 1px #000000;
+  padding: 20px;
+  border-radius: 10px;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -1111,6 +1161,10 @@ body.is-preload #bg:before {
   background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
   max-width: 100%;
   text-align: center;
+}
+#header h1 {
+  text-shadow: 0 0 2px #000000;
+  color: black;
 }
 #header > * {
   -moz-transition: opacity 0.325s ease-in-out;
@@ -1211,7 +1265,7 @@ body.is-preload #bg:before {
   border-bottom: 0;
 }
 #header nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(255, 250, 250, 0.511);
 }
 #header nav ul li a:active {
   background-color: rgba(255, 255, 255, 0.175);
