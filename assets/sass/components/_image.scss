@@ -12,9 +12,12 @@
   display: inline-block;
   position: relative;
 
+  // .change-bg {
+  //   background-image: url("../../../img/cake-card.webp");
+  // }
+
   &:before {
     @include vendor("pointer-events", "none");
-    background-image: url("../../../img/cake-bg.jpg");
     background-color: _palette(bg-overlay);
     border-radius: _size(border-radius);
     content: "";
@@ -67,9 +70,9 @@
     display: block;
     margin: (_size(element-margin) * 1.25) 0;
     width: 100%;
-    background: url("../../../img/chef.webp");
+    background: url("../../../img/cake-card.webp");
     background-size: cover;
-    height: 200px;
+    height: 400px;
 
     img {
       width: 100%;
