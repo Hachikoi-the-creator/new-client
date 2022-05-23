@@ -12,10 +12,6 @@
   display: inline-block;
   position: relative;
 
-  // .change-bg {
-  //   background-image: url("../../../img/cake-card.webp");
-  // }
-
   &:before {
     @include vendor("pointer-events", "none");
     background-color: _palette(bg-overlay);
@@ -70,10 +66,6 @@
     display: block;
     margin: (_size(element-margin) * 1.25) 0;
     width: 100%;
-    background: url("../../../img/cake-card.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 60vw;
 
     img {
       width: 100%;
