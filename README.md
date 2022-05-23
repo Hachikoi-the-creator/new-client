@@ -1,6 +1,12 @@
 Watch sass
-
+# SASS compile command
 sass -w assets/sass:assets/css
+
+# TODO
+- add media query for img containers
+- add media query for intro media containers
+<!-- - change the radial bg in intro -->
+
 
 ---------------------- https://pro-cake.netlify.app/
 Dimension by HTML5 UP

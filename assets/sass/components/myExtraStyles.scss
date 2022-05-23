@@ -20,4 +20,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+
+  image {
+    aspect-ratio: 1/1.4;
+  }
 }

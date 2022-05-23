@@ -69,3 +69,37 @@
 @import "layout/header";
 @import "layout/main";
 @import "layout/footer";
+
+#intro .intro--media-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  #intro--img,
+  #intro--iframe {
+    padding: 20px;
+    width: 50%;
+  }
+}
+// <= 700px
+@media screen and (max-width: 700px) {
+  // intro img & iframe
+  #intro .intro--media-container {
+    #intro--img,
+    #intro--iframe {
+      padding: 20px;
+      width: 100%;
+    }
+  }
+  // img containers
+  .img-containers img {
+    width: 45% !important;
+    aspect-ratio: 1/1.4;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .img-containers img {
+    width: 100% !important;
+    aspect-ratio: 1/1.4;
+  }
+}

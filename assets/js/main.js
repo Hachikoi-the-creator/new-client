@@ -403,7 +403,7 @@
 
 // ? nvm I just copied and pasted 💀
 $(document).ready(function () {
-	var small = { width: "30%", height: "116px" };
+	var small = { width: "30%", height: "156px" };
 	var large = { width: "200%", height: "332px" };
 	var count = 1;
 	$(".my-img").css(small).on('click', function () {

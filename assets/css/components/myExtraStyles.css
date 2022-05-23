@@ -17,5 +17,8 @@
   align-items: center;
   justify-content: space-evenly;
 }
+.img-containers image {
+  aspect-ratio: 1/1.4;
+}
 
 /*# sourceMappingURL=myExtraStyles.css.map */
