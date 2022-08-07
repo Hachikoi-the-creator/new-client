@@ -2,6 +2,9 @@ Watch sass
 # SASS compile command
 sass -w assets/sass:assets/css
 
+- git commit -m "updated sections descs"
+- email: zackcakesdesing@gmail.com
+
 # TODO
 - add media query for img containers
 - add media query for intro media containers
